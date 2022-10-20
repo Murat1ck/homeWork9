@@ -38,6 +38,6 @@ public class Main {
     public static void task4() {
         System.out.println("Задание №5");
         char[] reverseFullName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
-        //не понял как это сделать. Прошу разъяснений
+        //не понял как это выполнить. Прошу разъяснений
     }
 }
