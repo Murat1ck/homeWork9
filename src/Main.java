@@ -14,7 +14,7 @@ public class Main {
         int minMoney = 99000;
         int maxMoney = 201000;
         int averageValue = 0;
-        for (int i = 0; i < arr.length; i++) {
+         for (int i = 0; i < arr.length; i++) {
             arr[i] = random.nextInt(100_000) + 100_000;
             money += arr[i];
             if (arr[i] > minMoney) {
