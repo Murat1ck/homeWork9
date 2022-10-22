@@ -4,6 +4,7 @@ public class Main {
     public static void main(String[] args) {
         //generateRandomArray();
         task();
+        task4();
     }
 
         // int[] arr = generateRandomArray();
@@ -49,7 +50,7 @@ public class Main {
             System.out.println("Задание №5");
             char[] reverseFullName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
             for (int i = reverseFullName.length - 1; i >= 0; i--) {
-                System.out.println(reverseFullName[i]);
+                System.out.print(reverseFullName[i]);
             }
         }
     }
