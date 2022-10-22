@@ -3,11 +3,12 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
         //generateRandomArray();
-
+        task();
     }
+
         // int[] arr = generateRandomArray();
 
-        public static int[] generateRandomArray() {
+         public static int[] generateRandomArray () {
             java.util.Random random = new java.util.Random();
             int[] arr = new int[30];
             for (int i = 0; i < arr.length; i++) {
@@ -31,7 +32,7 @@ public class Main {
                     maxMoney = element;
                 }
             }
-            averageValue = money /  arr.length;
+            averageValue = money / arr.length;
 
 
             System.out.println("Задание №1");
@@ -44,12 +45,12 @@ public class Main {
         //ВОПРОС: Каким образом я могу всё это вывести в консоль??? выводится что код выполнен но без soutf
 
 
-
-    public static void task4() {
-        System.out.println("Задание №5");
-        char[] reverseFullName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
-        for (int i = reverseFullName.length - 1; i >= 0; i--) {
-            System.out.println(reverseFullName[i]);
+        public static void task4 () {
+            System.out.println("Задание №5");
+            char[] reverseFullName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
+            for (int i = reverseFullName.length - 1; i >= 0; i--) {
+                System.out.println(reverseFullName[i]);
+            }
         }
     }
-}
+
